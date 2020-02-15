@@ -11,5 +11,3 @@ phases:
 artifacts:
   files:
     - CodeBuild-WebApp01/build_output/**/*
-    - scripts/**/*
-    - appspec.yml
