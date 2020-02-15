@@ -1,4 +1,4 @@
-﻿version: 0.1
+version: 0.1
 phases:
   pre_build:
     commands:
@@ -7,7 +7,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release -o ./build_output WebApp01.csproj
+      - dotnet build WebApp01/WebApp01.csproj
 artifacts:
   files:
     - CodeBuild-WebApp01/build_output/**/*
